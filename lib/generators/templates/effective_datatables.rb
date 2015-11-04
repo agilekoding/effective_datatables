@@ -29,4 +29,6 @@ EffectiveDatatables.setup do |config|
   # Default number of entries shown per page
   # Valid options are: 10, 25, 50, 100, 250, 1000, :all
   config.default_entries = 25
+  # use the following var to set the options for Datatables follow the example.
+  # config.init_options = ["scrollY: 200", "scrollX: true"]
 end
