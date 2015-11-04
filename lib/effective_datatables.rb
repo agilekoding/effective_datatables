@@ -12,6 +12,7 @@ module EffectiveDatatables
   mattr_accessor :date_format
   mattr_accessor :datetime_format
   mattr_accessor :default_entries
+  mattr_accessor :init_options
 
   def self.setup
     yield self

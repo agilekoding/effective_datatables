@@ -37,6 +37,9 @@ initializeDataTables = ->
           fnStateChange: (iCol, bVisible) ->
             table = $(this.dom.button).closest('.dataTables_wrapper').children('table').first().DataTable()
             table.draw()
+        <% EffectiveDatatables.init_options.each do |o| %>
+        <%= o %>
+        <% end %>
 
       simple = datatable.data('effective-datatables-table') == 'simple'
       filter = datatable.data('filter')
