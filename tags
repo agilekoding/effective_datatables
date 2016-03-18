@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+EffectiveDatatables	lib/effective_datatables.rb	/^module EffectiveDatatables$/;"	m
+EffectiveDatatables	lib/effective_datatables/engine.rb	/^module EffectiveDatatables$/;"	m
+EffectiveDatatables	lib/effective_datatables/version.rb	/^module EffectiveDatatables$/;"	m
+EffectiveDatatables	lib/generators/effective_datatables/install_generator.rb	/^module EffectiveDatatables$/;"	m
+Engine	lib/effective_datatables/engine.rb	/^  class Engine < ::Rails::Engine$/;"	c	class:EffectiveDatatables
+Generators	lib/generators/effective_datatables/install_generator.rb	/^  module Generators$/;"	m	class:EffectiveDatatables
+InstallGenerator	lib/generators/effective_datatables/install_generator.rb	/^    class InstallGenerator < Rails::Generators::Base$/;"	c	class:EffectiveDatatables.Generators
+authorized	lib/effective_datatables.rb	/^  def self.authorized?(controller, action, resource)$/;"	F	class:EffectiveDatatables
+copy_initializer	lib/generators/effective_datatables/install_generator.rb	/^      def copy_initializer$/;"	f	class:EffectiveDatatables.Generators.InstallGenerator
+datatables	lib/effective_datatables.rb	/^  def self.datatables$/;"	F	class:EffectiveDatatables
+read_datatables	lib/effective_datatables.rb	/^  def self.read_datatables$/;"	F	class:EffectiveDatatables
+setup	lib/effective_datatables.rb	/^  def self.setup$/;"	F	class:EffectiveDatatables
+show_readme	lib/generators/effective_datatables/install_generator.rb	/^      def show_readme$/;"	f	class:EffectiveDatatables.Generators.InstallGenerator
