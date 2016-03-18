@@ -36,7 +36,7 @@ module EffectiveDatatablesHelper
     # Process any Procs
     filters.each do |filter|
       if filter[:values].respond_to?(:call)
-        filter[:values] = filter[:values].call()
+        filter[:values] = filter[:values].call(datatables.attributes)
 
         if filter[:values].kind_of?(ActiveRecord::Relation) || (filter[:values].kind_of?(Array) && filter[:values].first.kind_of?(ActiveRecord::Base))
           filter[:values] = filter[:values].map { |obj| [obj.id, obj.to_s] }
